@@ -1,0 +1,1 @@
+This repository contains a Solidity smart contract with a bug in the balanceOf function. The bug is that the function does not handle the case where the account does not exist. This can lead to unexpected behavior or errors.  The solution provided fixes this by checking if the account exists before returning the balance.
